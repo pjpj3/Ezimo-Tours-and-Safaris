@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Book a Safari | Ezimo Tours & Safaris</title>
+<meta name="description" content="Book a Namibia safari directly on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23c4532d'/><path d='M12 74 38 30l14 22 12-16 24 38z' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="inner">
+<nav id="nav"><div class="wrap"><a href="index.html" class="logo" aria-label="Ezimo home"><img class="lw" src="assets/img/logo-white.png" alt="Ezimo"><img class="lb" src="assets/img/logo-black.png" alt=""></a><button class="burger" id="bg" aria-label="Menu">☰</button><div class="menu" id="mn"><a href="index.html">Home</a><a href="tours.html">Tours</a><a href="gallery.html">Gallery</a><a href="about.html">About</a><a href="resources.html">Resources</a><a href="book.html" class="pill">Book Now</a></div></div></nav>
+<header class="ph" style="background-image:linear-gradient(rgba(10,22,28,.68),rgba(10,22,28,.5)),url(assets/img/camp.jpg)"><div class="wrap"><div class="eyebrow">Direct Booking</div><h1>Book your safari</h1><p>Choose, send, done. Your details go straight to our WhatsApp.</p></div></header><section class="book" id="book"><div class="wrap">
+<div class="eyebrow rv">Direct Booking</div><h2 class="rv">Plan your trip in 30 seconds</h2>
+<p class="lead rv">Choose your safari, your week and your group size. We’ll open WhatsApp with everything pre-filled, so you reach us instantly with all the details.</p>
+<div class="bk">
+<div class="panel rv">
+<div class="step"><div class="l"><span class="n">1</span>Choose your safari</div><div class="pk" id="pk"></div></div>
+<div class="step"><div class="l"><span class="n">2</span>Pick your departure week</div><div class="weeks" id="wk"></div></div>
+<div class="step"><div class="l"><span class="n">3</span>How many guests?</div>
+<div class="cnt"><button type="button" id="mi" aria-label="Fewer guests">−</button><output id="gc">2</output><button type="button" id="pl" aria-label="More guests">+</button><span>Max 8 per safari</span></div></div>
+<div class="step"><div class="l"><span class="n">4</span>Your contact details</div>
+<div class="f2"><input class="in" id="nm" placeholder="Full name *" autocomplete="name" required><input class="in" id="ml" type="email" placeholder="Email address" autocomplete="email"></div>
+<div class="f2"><input class="in" id="tl" type="tel" placeholder="Phone / WhatsApp (with country code)" autocomplete="tel"><input class="in" id="ct" placeholder="Country" autocomplete="country-name"></div>
+<textarea class="in full" id="nt" placeholder="Special requests (diet, age of children, accommodation style...)"></textarea>
+<p class="fn">Name is required. Your WhatsApp number reaches us automatically when you send, so phone and email are only needed if you’d like us to reach you somewhere else.</p></div>
+<div class="err" id="er" role="alert"></div>
+<button class="btn btn-wa" id="go"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 1.900c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.800.9c.3.100.5.200.5.300.1.200.1.800-.1 1.300z"/></svg>Book on WhatsApp</button>
+<div class="alt"><button type="button" id="cp">Copy message</button><a id="em" href="#">Send by email instead</a></div>
+</div>
+<div class="rv"><div class="phone"><div class="ph-h"><div class="av">E</div><div>Ezimo Tours &amp; Safaris<small>Typically replies within hours</small></div></div>
+<div class="chat"><div class="bub" id="pv"></div></div></div>
+<p class="hint">This is the message we’ll send for you ↑</p></div>
+</div></div></section>
+<footer><div class="wrap">
+<h2>Let’s plan your safari</h2>
+<p>Namibia · Windhoek-based · Tours across Namibia &amp; Southern Africa</p>
+<div class="ct"><a class="btn btn-wa" style="width:auto" id="fw" href="#">WhatsApp us</a><a class="btn" href="mailto:info@ezimosafaris.com">✉ info@ezimosafaris.com</a></div>
+<div class="copy"><span>© <span id="yr"></span> Ezimo Tours &amp; Safaris. All rights reserved.</span><span>Small Groups • Local Guides • Honest Travel</span></div>
+</div></footer>
+<a class="fab" id="fb" href="#" aria-label="Chat on WhatsApp"><svg width="32" height="32" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.300 1.200-1.800 1.200-.5.100-1 .2-3.300-.7-2.800-1.100-4.600-4-4.700-4.200-.1-.2-1.100-1.500-1.100-2.800s.7-2 1-2.300c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 1.900c.1.200.1.400 0 .5l-.4.600-.4.400c-.1.200-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.100 1.300 2.400 1.500.3.100.4.100.6-.1l.8-1c.2-.3.400-.2.600-.1l1.800.9c.3.100.5.200.5.300.1.200.1.800-.1 1.300z"/></svg></a>
+<script src="assets/app.js"></script>
+</body>
+</html>
