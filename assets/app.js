@@ -66,8 +66,6 @@ $("#go").onclick=()=>{
 $("#cp").onclick=async()=>{try{await navigator.clipboard.writeText(message());$("#cp").textContent="Copied ✓"}catch{$("#cp").textContent="Copy failed"}setTimeout(()=>$("#cp").textContent="Copy message",1800)};
 const q=new URLSearchParams(location.search).get("tour");if(TOURS.some(t=>t.id===q))st.tour=q;
 render();}
-const hello=wa("Hi Ezimo! I'd like to ask about a safari.");
-$("#fb").href=hello;$("#fb").target="_blank";if($("#fw")){$("#fw").href=hello;$("#fw").target="_blank"}
 $("#yr").textContent=new Date().getFullYear();
 
 // nav + reveal
